@@ -7,6 +7,7 @@ body{
     flex-wrap: wrap;
     gap: 20px;
     padding: 40px 40px;
+    justify-content: center;
 
 
 }
@@ -14,7 +15,7 @@ body{
     display: flex;
     background-color: #E6F3E5;
     align-items: flex-start;
-    width: 290px;
+    width: 280px;
     height: 250px;
     flex-direction: column;
     border-radius: 5px;
@@ -35,4 +36,8 @@ p{
     width: 100%;
 
 }
-
+.month:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 1px solid #43634B;
+}
