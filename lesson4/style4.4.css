@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 5vh;
+    background: #D9D9D9;
+}
+main{
+    display: flex;
+    height: 85vh;
+}
+.sections{
+    display: flex;
+    width: 60vw;
+}
+.left{
+    background: #A4A4A4;
+    width: 29vw;
+    height: 85vh;
+}
+.right{
+    background: #C1C1C1;
+    width: 31vw;
+    height: 85vh;
+}
+aside{
+    height: 50%;
+    width: 40vw;
+}
+.top{
+    background: #7F7A7A;
+}
+.bot{
+    background: #6B6161;
+}
+footer{
+    background: #D9D9D9;
+    height: 10vh;
+}
