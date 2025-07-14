@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Arial", sans-serif;
+            text-decoration: none;
+        }
+
+        .main-content{
+            width: 60vw;
+            height: 95vh;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            border: 2px solid lightgray;
+            gap: 30px;
+        }
+        .main-content h1{
+            font-size: 50px;
+            padding: 20px;
+            font-family: "Pacifico", cursive;
+            font-weight: normal;
+        }
+        form>input{
+            width: 500px;
+            height: 40px;
+            border: 1px solid lightgray;
+
+        }
+        form>input[type="submit"]{
+            background-color: rgba(0,72,255,0.6);
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+
+        }
+        span{
+            color: gray;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        a{
+          color: #33349b;
+        }
+        .facebook-submit img{
+            width: 18px;
+            height: 18px;
+
+        }
+        .facebook-submit{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        input::placeholder{
+
+            letter-spacing: 1px;
+            text-indent: 5px;
+        }
+        input:focus{
+            outline: none;
+
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60vw;
+            height: 20vh;
+            border: 2px solid lightgray;
+            margin: 0 auto 10px auto;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <h1>Instagram</h1>
+        <form><input type="text" name="login" placeholder="Номер телефону, iм`я користувача або email">
+            <input type="password" name="password" placeholder="Пароль">
+            <input type="submit" name="submit" value="Увiйти">
+        </form>
+            <span>АБО</span>
+            <div class="facebook-submit">
+                <img src="facebook-logo.png" alt="logo">
+                <a href="#">Увiйти через Facebook</a>
+            </div>
+            <a href="#">Забули пароль?</a>
+
+
+    </div>
+    <div class="footer">
+        <p>Не маєте облікового запису?</p>
+        <a href="#">Зареєструйтеся</a>
+    </div>
+</body>
+</html>
+
